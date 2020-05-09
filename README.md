@@ -2,7 +2,7 @@
 
 ![Script Demo](Media.gif)
 
-This is a fun project that I did on my own after building the script initially in VBA (yes, VBA). This is not a project I want to monetize (although there are several websites that charge money for using similar bots) and you should definitely follow Instagram's Terms of Use regarding using automated software on their platform. Use at your own risk.
+This is a fun project that I did on my own after building the script initially in VBA (yes, VBA - imagine liking Instagram images from your Excel spreadsheet). This is not a project I want to monetize (although there are several websites that charge money for using similar bots) and you should definitely follow Instagram's Terms of Use regarding using automated software on their platform. Use at your own risk.
 
 This script creates an incognito Chrome instance, goes to Instagram's login page and populates the login details - that are not hard coded in the python code - but rather retrieved from a json file (I've added in the repository the json template I'm using). The next step is interacting with the notification pop-up if it is encountered, reading the hashtag list provided, navigating to each hashtag homepage and liking the pictures until a threshold is reached. This process is repeated for as long as you want, but I'd highly suggest to not overdo it in order to prevent being blocked or even banned. In its current form, I've set it up to go on each hashtag page 3 times or submitting 1050 likes, whatever comes first.
 
